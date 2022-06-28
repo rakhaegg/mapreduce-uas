@@ -1,6 +1,6 @@
 FILE_JAR=target/MapReduce_IOT-1.0-SNAPSHOT.jar
 HADOOP_USERNAME=rakha
-IP_NAMENODE=192.168.1.10
+IP_NAMENODE=192.168.1.7
 HOME_DIR=/home/rakha/uas/
 NAMA_JAR_TUJUAN=MapReduce_IOT-1.0-SNAPSHOT.jar
 PACKAGE_ID=org.example.App
@@ -8,7 +8,7 @@ NAME=/home/rakha/uas/MapReduce_IOT-1.0-SNAPSHOT.jar
 #INPUT_FOLDER_HUMIDITY=/Join/Humidity
 INPUT_FOLDER_PERTAMA=/Military/Pertama
 #INPUT_FOLDER_TEMPERATURE=/Join/Temperature
-INPUT_FOLDER_KEDUA=/Military/Kedua
+#INPUT_FOLDER_KEDUA=/Military/Kedua
 OUTPUT_FOLDER=/Military/Hasil/Output
 clear
 SCP_ARG="${HADOOP_USERNAME}@${IP_NAMENODE}:${HOME_DIR}${NAMA_JAR_TUJUAN}"

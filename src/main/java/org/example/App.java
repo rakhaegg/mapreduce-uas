@@ -31,7 +31,7 @@ public class App
         job.setMapOutputValueClass(Text.class);
         job.setReducerClass(ReducerBombingOperations.class);
         job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(IntWritable.class);
+        job.setOutputValueClass(Text.class);
         FileOutputFormat.setOutputPath(job , new Path(args[1]));
         System.out.println("Test2");
 
